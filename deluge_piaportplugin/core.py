@@ -20,7 +20,7 @@ from twisted.internet.task import LoopingCall
 log = logging.getLogger(__name__)
 
 DEFAULT_PREFS = {
-    'port_file': '/pia/forwarded_port',
+    'port_file': '/tmp/gluetun/forwarded_port',
     'poll_interval': 300
 }
 
